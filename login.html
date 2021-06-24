@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="./assets/css/login.css" rel="stylesheet" />
+    <link href="./assets/css/login-responsive.css" rel="stylesheet" />
+</head>
+
+<body class="v-application v-application--is-ltr theme--light" id="app-wrap">
+    <div class="v-application--wrap">
+        <div class="logo d-flex justify-center">
+            <img src="./assets/images/login/large-lover-money-icon.svg" />
+            <img src="./assets/images/login/lover-money-icon.svg" />
+        </div>
+        <div class="d-flex justify-center">
+            <div class="wrap-form">
+                <div class="form-title-text">
+                    <span>Log In</span>
+                </div>
+                <div class="wrap-form-body">
+                    <div class="social">
+                        <div class="social-description"><span>Using social
+                                networking accounts</span>
+                        </div>
+                        <div class="social-items d-flex flex-column">
+                            <button type="button"
+                                class="social-item google v-btn v-btn--depressed theme--light v-size--default">
+                                <span class="v-btn__content">
+                                    <img src="./assets/images/login/icon-google.svg" />
+                                    <span class="social-item-name">Connect with Google</span>
+                                </span>
+                            </button>
+                            <button type="button"
+                                class="social-item facebook v-btn v-btn--depressed theme--light v-size--default">
+                                <span class="v-btn__content">
+                                    <img src="./assets/images/login/icon-facebook.svg" />
+                                    <span class="social-item-name">Connect with Facebook</span>
+                                </span>
+                            </button>
+                            <div>
+                                <button type="button"
+                                    class="social-item apple v-btn v-btn--depressed theme--light v-size--default">
+                                    <span class="v-btn__content">
+                                        <img src="./assets/images/login/icon-apple.svg" />
+                                        <span class="social-item-name">Sign in with Apple</span>
+                                    </span>
+                                </button>
+                                <div role="dialog" class="v-dialog__container">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ml-hr">
+                        <div class="half"></div>
+                        <span class="sub-hr">Or</span>
+                        <div class="half">
+                        </div>
+                    </div>
+                    <div class="ml-network">
+                        <div class="using-ml-account-text">
+                            <span>Using Money Lover account </span>
+                        </div>
+                        <form novalidate="novalidate" class="v-form form-ml">
+                            <div
+                                class="v-input v-input--hide-details theme--light v-text-field v-text-field--is-booted v-text-field--placeholder mb-6">
+                                <div class="v-input__control">
+                                    <div class="v-input__slot">
+                                        <div class="v-text-field__slot">
+                                            <input id="input-26" placeholder="Email" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="v-input mb-2 v-input--hide-details theme--light v-text-field v-text-field--is-booted v-text-field--placeholder">
+                                <div class="v-input__control">
+                                    <div class="v-input__slot">
+                                        <div class="v-text-field__slot">
+                                            <input id="input-28" placeholder="Password" type="password">
+                                        </div>
+                                        <div class="v-input__append-inner">
+                                            <img src="/assets/images/login/icon-lock.svg" />
+                                            <img src="/assets/images/login/icon-lock-disable.svg" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="forgot-password">
+                                <span class="forgot-password-text">Forgot Password</span>
+                            </div>
+                            <button type="button"
+                                class="btn-submit-ml v-btn v-btn--depressed theme--light v-size--default">
+                                <span class="v-btn__content">Login</span>
+                            </button>
+                        </form>
+                        <div class="suggestion"> Don’t have an account?
+                            <span class="suggestion-action">Register</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="snackbar-container">
+        </div>
+        <div class="loading-container" style="display: none;">
+            <div class="lds-ring">
+                <div>
+                </div>
+                <div>
+                </div>
+                <div>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
